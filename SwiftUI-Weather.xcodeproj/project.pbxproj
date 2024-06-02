@@ -11,6 +11,7 @@
 		8038AC9C2C04D89700A66C65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038AC9B2C04D89700A66C65 /* ContentView.swift */; };
 		8038AC9E2C04D8A000A66C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8038AC9D2C04D8A000A66C65 /* Assets.xcassets */; };
 		8038ACA12C04D8A000A66C65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8038ACA02C04D8A000A66C65 /* Preview Assets.xcassets */; };
+		80C7785D2C0BAA89009E9A78 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C7785C2C0BAA89009E9A78 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8038AC9B2C04D89700A66C65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8038AC9D2C04D8A000A66C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8038ACA02C04D8A000A66C65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80C7785C2C0BAA89009E9A78 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8038AC992C04D89700A66C65 /* SwiftUI_WeatherApp.swift */,
 				8038AC9B2C04D89700A66C65 /* ContentView.swift */,
+				80C7785C2C0BAA89009E9A78 /* WeatherButton.swift */,
 				8038AC9D2C04D8A000A66C65 /* Assets.xcassets */,
 				8038AC9F2C04D8A000A66C65 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				8038AC9C2C04D89700A66C65 /* ContentView.swift in Sources */,
 				8038AC9A2C04D89700A66C65 /* SwiftUI_WeatherApp.swift in Sources */,
+				80C7785D2C0BAA89009E9A78 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +281,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
